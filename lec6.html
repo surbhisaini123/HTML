@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 100px;
+            width:100px;
+            background-color: purple;
+            position:fixed;
+            top:100px;
+
+        } */
+        /* #parent{
+            height: 300px;
+            width: 300px;
+            border: 2px solid blue;
+            position: relative;
+            top:200px;
+        }
+        #child{
+            height: 50px;
+            width: 50px;
+            position:sticky;
+            background-color: darkkhaki;
+            top:20px;
+
+        }
+        .content{
+            height: 1000px; */
+/* 
+        } */
+
+       body{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height:100vh;
+      
+
+        }
+        #parent{
+            height:400px;
+            width:40vw;
+            border: 2px solid green;
+            margin: 50px auto;
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* justify-content: center ; */
+            /* justify-content: space-around; */
+            /* justify-content: end; */
+            /* justify-content: left; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: baseline;
+
+        }
+        #parent div{
+            height: 100px;
+            width: 100px;
+        }
+        #one{
+            background-color: purple;
+        }
+         #two{
+            background-color:  green;
+        }
+         #three{
+            background-color: rgb(0, 70, 128);
+        }
+         #four{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div></div> -->
+
+    <!-- <div id="parent"></div> 
+    <div id="child"></div>
+    <div class="content"></div> -->
+    <div id="parent">
+        <div id="one"></div>
+        <div id="two"></div>
+
+        <div id="three"></div>
+        <div id="four"></div>
+    </div>
+</body>
+
+</html>
