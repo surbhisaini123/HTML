@@ -1,0 +1,55 @@
+/* <<<<<<<<------- TRANSITION -------->>>>>>>>> */
+
+/* div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    /* transition: 5s; */
+    /* transition-delay: 2s; */
+    /* margin: 0 auto;
+    margin-top: 2px;
+    /* transition: margin-top 2s ease-in 0.2s; */
+     /* transition: margin-top 2s ease-in-out 0.2s; */
+      /* transition: margin-top 2s ease 0.2s; */
+
+/* } */
+/* div:hover{
+    /* background-color: brown;
+    border-radius: 50%; */
+     /* margin-top: 500px;
+    background-color: pink;
+ }   */
+
+
+/* <<<<<<<<------TRANSFORM -------->>>>>> */
+
+
+section{
+  margin-top: 200px;
+}
+div{
+    height: 50px;
+    width: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: rgb(206, 137, 198);
+}
+div:nth-of-type(3n){
+    background-color: rgb(101, 161, 196);
+}
+/*ROTATE  */
+#one{
+    transform: rotate(45deg);
+}
+
+/* SCALE */
+
+#two{
+    transform: scale(2,0.2);
+}
+#three{
+    transform: scaleX(3);
+}
